@@ -12,6 +12,8 @@ int main(){
         cout << "Digite uma operacao(+, -, /, *): ";
         cin >> opcao;
 
+        cout << "\n";
+
         if(opcao != "+" && opcao != "-" && opcao != "/" && opcao != "*" ){
             break;
         }
