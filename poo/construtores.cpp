@@ -27,12 +27,9 @@ Pessoa::Pessoa(string nome, int idade): nomePessoa(nome), idadePessoa(idade)
 {
 }
 
-
-
-
 int main(){
 
-
+    // Usando o construtor
     Pessoa p1("Levi", 20);
     cout << p1.getNome();
 
